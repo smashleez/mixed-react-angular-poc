@@ -1,0 +1,203 @@
+{
+  "totalCount": 4,
+  "limit": 25,
+  "offset": 0,
+  "results": [{
+    "id": 6,
+    "status": "REJECTED",
+    "currentStepName": "Paperwork Downloaded",
+    "currentStepId": "DOWNLOADED",
+    "currentStepSequence": 2,
+    "nextFollowUpDate" : "2017-11-01T17:30:51",
+    "payerFunctionType": {
+       "code": "CL",
+       "value": "Professional Claims"
+    },
+    "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+    "payerName": "Aetna",
+    "nextFollowUpDate": "2018-03-25T16:51:44",
+    "providerId": "11",
+    "providerNumber": "ABX101123",
+    "providerNumberDescription": "Provider Number",
+    "createDate": "2016-11-01T10:05:00",
+    "updateDate": "2016-12-01T17:30:51",
+    "providerName": "Dr. Tester",
+    "npi": "123456789",
+    "taxId": "123456789",
+    "ticketNumber": 1,
+    "notes": [
+      {
+        "id": 1,
+        "enrollmentId": 6,
+        "stepId": "REQUESTED",
+        "status": "OPEN",
+        "note": "Test note!",
+        "createdBy": "bryan.read",
+        "createDate": "2017-03-25T16:51:44"
+      },
+      {
+        "id": 2,
+        "enrollmentId": 6,
+        "stepId": "DOWNLOADED",
+        "status": "REJECTED",
+        "note": "Rejecting this badboy!!",
+        "createdBy": "bryan.read",
+        "createDate": "2017-05-25T16:51:44"
+      },
+      {
+        "id": 3,
+        "enrollmentId": 6,
+        "stepId": "DOWNLOADED",
+        "status": "REJECTED",
+        "note": "Will this show up!!",
+        "createdBy": "bryan.read",
+        "createDate": "2017-05-25T16:51:44"
+      }],
+    "payerEdiCode": "68035"
+  },{
+    "id": 5,
+    "status": "EXPIRED",
+    "currentStepName": "Paperwork Downloaded",
+    "currentStepId": "DOWNLOADED",
+    "currentStepSequence": 2,
+    "nextFollowUpDate" : "2018-11-01T17:30:51",
+    "payerFunctionType": {
+       "code": "CL",
+       "value": "Professional Claims"
+    },
+    "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+    "payerName": "Aetna",
+    "nextFollowUpDate": "2017-04-11T12:31:14",
+    "providerId": "11",
+    "providerNumber": "ABX99999",
+    "providerNumberDescription": "Provider Number",
+    "createDate": "2016-11-01T10:05:00",
+    "updateDate": "2016-11-01T17:30:51",
+    "notes": [{
+      "id": 1,
+      "enrollmentId": 5,
+      "stepId": "REQUESTED",
+      "status": "OPEN",
+      "note": "Test note!",
+      "createdBy": "bryan.read",
+      "createDate": "2017-03-25T16:51:44"
+    },
+      {
+        "id": 2,
+        "enrollmentId": 5,
+        "stepId": "DOWNLOADED",
+        "status": "REJECTED",
+        "note": "Will this show up!!",
+        "createdBy": "bryan.read",
+        "createDate": "2017-05-25T16:51:44"
+      }]
+  },
+    {
+    "id": 4,
+    "status": "OPEN",
+    "currentStepName": "Paperwork Downloaded",
+    "currentStepId": "DOWNLOADED",
+    "currentStepSequence": 2,
+    "nextFollowUpDate" : "2015-11-01T17:30:51",
+    "payerFunctionType": {
+       "code": "EL",
+       "value": "Eligibility"
+    },
+    "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+    "payerName": "Medicaid",
+    "providerId": "11",
+    "providerNumber": "Z5101",
+    "providerNumberDescription": "PTAN",
+    "createDate": "2016-11-01T10:05:02",
+    "updateDate": "2016-11-01T15:41:41",
+    "notes": [{
+      "id": 3,
+      "enrollmentId": 4,
+      "stepId": "REQUESTED",
+      "status": "OPEN",
+      "note": "Hey, look, I did my job twich!",
+      "createdBy": "richard.bennett",
+      "createDate": "2016-11-01T15:17:44"
+    },
+      {
+        "id": 2,
+        "enrollmentId": 4,
+        "stepId": "DOWNLOADED",
+        "status": "OPEN",
+        "note": "wHAT WHAT what",
+        "createdBy": "richard.bennett",
+        "createDate": "2016-11-01T15:11:02"
+      },
+      {
+        "id": 1,
+        "enrollmentId": 4,
+        "stepId": "REQUESTED",
+        "status": "EXPIRED",
+        "note": "Hey, look, I did my job!",
+        "createdBy": "richard.bennett",
+        "createDate": "2016-11-01T15:06:00"
+      }]
+  },
+    {
+      "id": 3,
+      "status": "OPEN",
+      "currentStepName": "Paperwork Downloaded",
+      "currentStepId": "DOWNLOADED",
+      "currentStepSequence": 2,
+      "nextFollowUpDate" : "",
+      "payerFunctionType": {
+       "code": "CL",
+       "value": "Professional Claims"
+      },
+      "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+      "payerName": "Medicaid",
+      "providerId": "11",
+      "providerNumber": "R-45-100045",
+      "providerNumberDescription": "PTAN",
+      "createDate": "2016-11-01T10:05:00",
+      "updateDate": "2016-11-01T17:30:51",
+      "notes": []
+    },
+    {
+      "id": 2,
+      "status": "OPEN",
+      "currentStepName": "Enrollment Requested",
+      "currentStepId": "REQUESTED",
+      "currentStepSequence": 1,
+      "nextFollowUpDate" : "",
+      "payerFunctionType": {
+         "code": "IN",
+         "value": "Institutional Claims"
+      },
+      "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+      "payerName": "Medicaid",
+      "providerId": "11",
+      "providerNumber": "R-99-100045",
+      "providerNumberDescription": "PTAN",
+      "createDate": "2016-11-01T10:04:57",
+      "updateDate": "2016-11-01T10:04:57",
+      "notes": []
+    },
+    {
+      "id": 1,
+
+      "status": "CLOSED",
+      "currentStepName": "First Remit Received",
+      "currentStepId": "REMITRECEIVED",
+      "currentStepSequence": 6,
+      "nextFollowUpDate" : "",
+      "payerFunctionType": {
+         "code": "EL",
+         "value": "Eligibility"
+      },
+      "payerId": "72D0399EB74642FA80EE401BC72CE41D",
+      "payerName": "Aetna",
+      "providerId": "11",
+      "providerNumber": "X5-100045",
+      "providerNumberDescription": "Provider Number",
+      "createDate": "2016-11-01T10:04:47",
+      "updateDate": "2016-11-01T10:04:47",
+      "notes": []
+    }],
+  "count": 4
+}

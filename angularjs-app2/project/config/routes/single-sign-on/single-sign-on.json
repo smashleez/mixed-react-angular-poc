@@ -1,0 +1,16 @@
+{
+  "v1/sso": {
+    "get": [
+      {
+        "params": {
+          "token": "unauthorized"
+        },
+        "status": 401,
+        "file": "single-sign-on/single-sign-on.json"
+      },
+      {
+        "file": "single-sign-on/single-sign-on.json"
+      }
+    ]
+  }
+}

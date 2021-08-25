@@ -1,0 +1,19 @@
+{
+  "name": "rcm-application",
+  "version": "1.0.0",
+  "description": "RCM container and child applications.  This does not produce a package and is only used for npm scripts when running the whole repo locally",
+  "scripts": {
+    "start": "node start.js",
+    "build": "concurrently \"cd container && webpack --config webpack.config.js -p\" \"cd rcm && npm run production\"",
+    "install": "concurrently \"cd container && npm install\" \"cd navbar && npm install\" \"cd react-app && npm install \" \"cd angular-app && npm install\"\"cd angularjs-app && npm install\"",
+    "production": "concurrently \"cd analytics && npm run production\" \"cd container && npm run production\" \"cd navbar && npm run production\" \"cd rcm && npm run production\" \"cd denial-management && npm run production\" \"cd self-service && npm run production\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "ng-drag-drop": "^5.0.0",
+    "regenerator-runtime": "^0.13.3"
+  }
+}

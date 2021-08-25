@@ -1,0 +1,21 @@
+{
+  "name": "client-onboarding",
+  "version": "1.0.0",
+  "description": "Availity RCM Client Onboarding Web Application.",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-datepicker": "1.4.0",
+    "html5shiv": "~3.7.2",
+    "jquery.inputmask": "3.2.3",
+    "socket.io-client": "~1.4.5",
+    "json-editor": "~0.7.25",
+    "respond": "~1.4.2",
+    "tracekit": "~0.3.0",
+    "select2": "3.5.2",
+    "velocity": "1.2.3"
+  },
+  "homepage": "https://git.availity.com/projects/RCM/repos/client-onboarding",
+  "keywords": [
+    "angular"
+  ]
+}

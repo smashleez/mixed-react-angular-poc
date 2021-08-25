@@ -1,0 +1,78 @@
+$availity-font-path: '~availity-uikit/fonts';
+@import '~availity-uikit/scss/_bootstrap.scss';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}
+
+.clear-input{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.loading {
+  opacity: .6;
+  position: relative;
+  min-height: 100px;
+}
+
+.btn-xs {
+  padding: 0.15rem 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+.ng-select.custom {
+    .ng-select-container {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked {
+    background-color: #66afe9;
+    color: #fff;
+}
+
+.myCustomModalClass .modal-dialog {
+  max-width: 450px;
+  height:600px !important;
+}
+
+.btn-out-default {
+  background-color: #e8ebeb !important;
+  border-color: rgb(173, 173, 173) !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-out-default-ec {
+  background-color: #e8ebeb !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  left: -10px;
+}
+
+.btn-out-default:hover {
+  background-color: #ddd !important;
+  cursor: pointer;
+}
+
+input::placeholder {
+    color: #999 !important;
+    font-size: 14px;
+}

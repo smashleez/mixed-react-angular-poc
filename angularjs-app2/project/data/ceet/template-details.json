@@ -1,0 +1,146 @@
+{
+  "totalCount": 18,
+  "limit": 4,
+  "offset": 2,
+  "count": 4,
+  "results": [
+        {
+          "templateDetailId": "5",
+          "templateId": 1,
+          "payerId": "765675676",
+          "payerName": "Medicaid",
+          "payerFunctionTypeId": "RA"
+        },
+        {
+          "templateDetailId": "2",
+          "templateId": 1,
+          "payerId": "765675676",
+          "payerName": "Medicaid",
+          "payerFunctionTypeId": "EL",
+          "payerFunctionTypeName": "Eligibility"
+        },
+        {
+          "templateDetailId": "3",
+          "templateId": 1,
+          "payerId": "765675676",
+          "payerName": "Medicaid",
+          "payerFunctionTypeId": "IN",
+          "payerFunctionTypeName": "Institutional Claims"
+        },
+        {
+          "templateDetailId": "7",
+          "templateId": 1,
+          "payerId": "765675676",
+          "payerName": "Medicaid",
+          "payerFunctionTypeId": "AR"
+        },
+        {
+          "templateDetailId": "4",
+          "templateId": 1,
+          "payerId": "510",
+          "payerName": "TEST COMPANY TWO",
+          "payerFunctionTypeId": "CL",
+          "payerFunctionTypeName": "Professional Claims"
+        },
+        {
+          "templateDetailId": "6",
+          "templateId": 1,
+          "payerId": "510",
+          "payerName": "TEST COMPANY TWO",
+          "payerFunctionTypeId": "EA"
+        },
+        {
+          "templateDetailId": "8",
+          "templateId": 1,
+          "payerId": "510",
+          "payerName": "TEST COMPANY TWO",
+          "payerFunctionTypeId": "CE"
+        },
+        {
+          "templateDetailId": "1",
+          "templateId": 1,
+          "payerId": "510",
+          "payerName": "TEST COMPANY TWO",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+          {
+          "templateDetailId": "9",
+          "templateId": 1,
+          "payerId": "511",
+          "payerName": "TEST COMPANY Three",
+          "payerFunctionTypeId": "CL",
+          "payerFunctionTypeName": "Professional Claims"
+        },
+        {
+          "templateDetailId": "10",
+          "templateId": 1,
+          "payerId": "511",
+          "payerName": "TEST COMPANY Three",
+          "payerFunctionTypeId": "EA"
+        },
+        {
+          "templateDetailId": "11",
+          "templateId": 1,
+          "payerId": "511",
+          "payerName": "TEST COMPANY Three",
+          "payerFunctionTypeId": "CE"
+        },
+        {
+          "templateDetailId": "12",
+          "templateId": 1,
+          "payerId": "511",
+          "payerName": "TEST COMPANY Three",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "13",
+          "templateId": 1,
+          "payerId": "600",
+          "payerName": "TEST COMPANY 600",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "14",
+          "templateId": 1,
+          "payerId": "700",
+          "payerName": "TEST COMPANY 700",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "15",
+          "templateId": 1,
+          "payerId": "800",
+          "payerName": "TEST COMPANY 800",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "16",
+          "templateId": 1,
+          "payerId": "900",
+          "payerName": "TEST COMPANY 900",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "17",
+          "templateId": 1,
+          "payerId": "900",
+          "payerName": "TEST COMPANY 900",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        },
+        {
+          "templateDetailId": "18",
+          "templateId": 1,
+          "payerId": "1000",
+          "payerName": "TEST COMPANY 1000",
+          "payerFunctionTypeId": "CS",
+          "payerFunctionTypeName": "Claim Status"
+        }
+      ]
+}

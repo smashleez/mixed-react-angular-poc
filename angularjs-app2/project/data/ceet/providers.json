@@ -1,0 +1,23 @@
+{
+  "totalCount": 3,
+  "results": [
+    {
+      "id": 11,
+      "name": "John Miller",
+      "npi": "1234567893",
+      "taxId": "123123123"
+    },
+    {
+      "id": 22,
+      "name": "Arthur Fonzarelli",
+      "npi": "1231231234",
+      "taxId": "765765765"
+    },
+    {
+      "id": 33,
+      "name": "Dwayne Johnson",
+      "npi": "9876543213",
+      "taxId": "456456456"
+    }
+  ]
+}

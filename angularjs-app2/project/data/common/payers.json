@@ -1,0 +1,37 @@
+{
+  "limit": 5,
+  "offset": 0,
+  "totalCount": 6,
+  "results": [
+    {
+      "id": "13212",
+      "ediCode": "S234D2",
+      "name": "Aetna"
+    },
+    {
+      "id": "765675676",
+      "ediCode": "786565",
+      "name": "Medicaid"
+    },
+    {
+      "id": "4564545645",
+      "ediCode": "X83452",
+      "name": "Payer C"
+    },
+    {
+      "id": "cd0499eb-3b63-4134-8d82-023de65dccc0",
+      "ediCode": "X83452",
+      "name": "MDwise Indiana University Health"
+    },
+    {
+      "id": "635cfaca-ba83-40a4-8152-02ec051dc48d",
+      "ediCode": "X83452",
+      "name": "BCBS Vermont"
+    },
+    {
+      "id": "b7a6be2f-4ba4-4fdb-881c-0328fdab0020",
+      "ediCode": "X83452",
+      "name": "ESSENCE Healthcare"
+    }
+  ]
+}

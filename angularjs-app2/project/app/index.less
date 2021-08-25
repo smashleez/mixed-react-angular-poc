@@ -1,0 +1,66 @@
+// BEFORE USING CUSTOM LESS/CSS PLEASE TRY AND LEVERAGE THE UIKIT
+// AS MUCH AS POSSIBLE
+//
+// EVERY TIME A CUSTOM STYLE IS CREATED AN ANGEL LOSES ITS WINGS
+
+@import (reference) "../../node_modules/availity-uikit/less/availity-variables.less";
+@import (reference) "../../bower_components/bootstrap/less/bootstrap.less";
+
+.onboarding-main {
+
+  .main-container {
+    position: absolute;
+    top: 47px;
+    bottom: 0;
+
+    .main-sidebar {
+      .container-fluid {
+        padding: 0 15px;
+        overflow: auto;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+// TODO: try to replace 1rem with @container-height in rcm-variables.less
+.navbar.navbar-fixed-top + main.onboarding-main {
+  padding-top: @navbar-height + 1rem;
+}
+
+.navbar-secondary.navbar-fixed-top + main.onboarding-main {
+  padding-top: (@navbar-height * 2) + 1rem;
+}
+
+.stepwizard-badge.stepwizard-badge-danger {
+  background-color: lighten(@red-darkest, 10%) !important;
+  border-color: lighten(@red-darkest, 10%) !important;
+}
+
+.remove-clear-bar {
+  .main-container {
+    top: 0px;
+  }
+}
+
+.main-sidebar.large{
+  width: 415px;
+}
+
+.card-block.condensed {
+  padding: 5px
+}
+
+.label-small {
+  font-size: 14px
+}
+
+.checkbox  label.stretch {
+  width: 500px
+}
+
+.stepwizard-badge.stepwizard-badge-danger {
+  padding-left: 8px;
+  padding-top: 7px;
+  color: white
+}

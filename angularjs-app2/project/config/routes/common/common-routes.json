@@ -1,0 +1,23 @@
+{
+  "v1/application-settings/rcm": {
+    "file": "common/application-settings.json"
+  },
+  "v1/users/me": {
+    "file": "common/current-user.json"
+  },
+  "v1/log-messages": {
+    "file": "common/log.json"
+  },
+  "v1/payers": {
+    "file": "common/payers.json"
+  },
+  "v1/payers/:id/functionTypes": {
+    "file": "common/payer-function-types.json"
+  },
+  "v1/preferences/:id": {
+    "file": "common/office-options.json"
+  },
+  "v1/support-tickets/:id": {    
+    "file": "common/support-ticket.json"
+  }
+}

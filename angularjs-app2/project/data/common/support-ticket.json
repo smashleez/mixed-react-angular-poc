@@ -1,0 +1,11 @@
+{
+  "id": 12345,
+  "status": "Open",
+  "description": "Test Description.",
+  "details": {
+    "userPhone": "555-5555",
+    "phone": "555-5555",
+    "extension": "1234",
+    "email": "test@test.com"
+  }
+}

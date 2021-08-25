@@ -1,0 +1,60 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug*/
+[Rr]elease/
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+.gradle
+.idea
+.externalToolBuilders
+.project
+.settings
+*.min.css
+/config.json
+
+env.bat
+
+bower_components/
+node_modules/
+npm-debug.log
+
+coverage/
+coverage-reports/
+build/
+/lib/
+
+/developer/availity-web-settings/development.js
+/developer/developer.config.json
+/projects/foundation/app/css/availity.css
+/projects/base.config.js
+/projects/settings.js
+/projects/*/js/template.js
+
+/.DS_Store
+.DS_Store
+
+/reports/
+
+/css/
+/deploy/
+dist/
+
+workflow/webpack/stats.json
+
+npm-debug.log

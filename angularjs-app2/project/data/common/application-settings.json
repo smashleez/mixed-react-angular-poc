@@ -1,0 +1,9 @@
+[
+  {
+      "name": "RCM_URL",
+      "setting": "https://rmhcpdev.availity.net",
+      "type": "RCM",
+      "isPrivate": false
+  }
+]
+  

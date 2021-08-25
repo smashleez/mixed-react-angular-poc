@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-availity/browser",
+  "rules": {
+    "no-use-before-define": 0,
+    "no-new": 0
+  }, 
+  "globals": {
+    "APP_VERSION": true
+  }
+}

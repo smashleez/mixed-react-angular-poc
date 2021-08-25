@@ -1,0 +1,152 @@
+[
+    {
+      "templateId": 1,
+      "templateName": "Template 1",
+      "createdBy": {
+        "firstName": "Test",
+        "lastName": "User",
+        "userId": 1
+      },
+      "createdDate": "2017-09-29T23:44:43",
+      "modifiedBy": {
+        "firstName": "Test",
+        "lastName": "User",
+        "userId": 1
+      },      
+      "modifiedDate": "2017-09-29T23:44:43",
+      "officeId": "9",
+      "templateDetails": [
+        {
+          "templateDetailId": "1",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "CS"
+        },
+        {
+          "templateDetailId": "2",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "EL"
+        },
+        {
+          "templateDetailId": "3",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "IN"
+        },
+        {
+          "templateDetailId": "4",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "CL"
+        },
+        {
+          "templateDetailId": "5",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "RA"
+        },
+        {
+          "templateDetailId": "6",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "EA"
+        },
+        {
+          "templateDetailId": "7",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "AR"
+        },
+        {
+          "templateDetailId": "8",
+          "templateId": 1,
+          "payerId": "510", 
+          "payerName": "TEST COMPANY TWO", 
+          "payerFunctionTypeId": "CE"
+        }
+      ]
+    },
+    {
+      "templateId": 2,
+      "templateName": "Template 2",
+      "createdBy": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "userId": 2
+      },
+      "createdDate": "2017-01-21T23:44:43",
+      "modifiedBy": {
+        "firstName": "John",
+        "lastName": "Deer",
+        "userId": 3
+      },      
+      "modifiedDate": "2017-01-21T23:44:43",
+      "officeId": "9",
+      "templateDetails": [
+        {
+          "templateDetailId": "9",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "CS"
+        },
+        {
+          "templateDetailId": "10",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB510", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "EL"
+        },
+        {
+          "templateDetailId": "11",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "IN"
+        },
+        {
+          "templateDetailId": "12",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "CL"
+        },
+        {
+          "templateDetailId": "13",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "RA"
+        },
+        {
+          "templateDetailId": "14",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "EA"
+        },
+        {
+          "templateDetailId": "15",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "AR"
+        },
+        {
+          "templateDetailId": "16",
+          "templateId": 2,
+          "payerId": "A06BE3EE66914ED5A8D9C69E988351EB", 
+          "payerName": "CareFirst BCBS NCA", 
+          "payerFunctionTypeId": "CE"
+        }
+      ]
+    }
+  ]

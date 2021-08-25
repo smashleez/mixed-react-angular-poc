@@ -1,0 +1,5 @@
+{
+	"reactAppPath":"http://localhost:7777",
+	"angularAppPath":"http://localhost:1036",
+	"angularJsAppPath":"http://localhost:3000"
+}

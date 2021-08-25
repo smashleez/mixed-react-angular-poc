@@ -1,0 +1,121 @@
+$availity-font-path: '~availity-uikit/fonts';
+@import '~availity-uikit/scss/_bootstrap.scss';
+
+.logo {
+    height: 27px;
+  }
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #4d4f53;
+}
+
+.modal.danger {
+  .modal-header {
+      background-color: #a01708;
+      color: white;
+      .close {
+          color: white;
+      }
+  }
+}
+
+.notification-container {
+  position: fixed !important;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+  border-radius: 3px;
+  box-shadow: 0 0 6px #999;
+
+  .alert {
+    width: 400px;
+    margin-bottom: 0px;
+  }
+  .alert.alert-success {
+    background-color: #02a17c !important;
+    border-color: #028869 !important;
+    color: white;
+  }
+  .alert.alert-warning {
+    background-color: #ffda00;
+    border-color: #e6c400;
+    color: #30383f;
+  }
+  .alert.alert-danger {
+    background-color: #b21909;
+    border-color: #9a1608;
+    color: #fff;
+  }
+  .alert.alert-info {
+    background-color: #3e6887;
+    border-color: #365b76;
+    color: #fff;
+  }
+}
+
+select.form-control {
+  background-color: #fff;
+}
+
+.router-link {
+  cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #ffffff;
+  background-color: #6a6b6d;
+}
+
+.tertiary-navbar {
+  padding: 0 !important;
+}
+
+.navbar-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+}
+
+.modal-header .close {
+  outline: none;
+}
+
+.p-dropdown {
+  width:100% !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #4d4f53;
+  max-width: 375px !important;
+}
+
+.p-multiselect {
+  max-width:100%;
+}
+
+.condense-side-paddings {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+.p-multiselect-panel {
+  min-width: 350px !important;
+}
+
+.under-construction {
+  width: 2.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.4rem !important;
+}
+
+.navbar {
+    height: 46px;
+}

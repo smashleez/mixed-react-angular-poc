@@ -1,0 +1,7 @@
+#!groovy
+'availity-provider-pipeline'(
+	noDotNet: true,
+	webDirs: ['analytics', 'container', 'navbar', 'rcm', 'denial-management', 'self-service'],
+	noBower: ['analytics', 'container', 'denial-management', 'self-service'],
+  npmAllowPreReleases: true
+)

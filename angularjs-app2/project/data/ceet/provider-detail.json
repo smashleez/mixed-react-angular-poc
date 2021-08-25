@@ -1,0 +1,21 @@
+{
+  "id": 11,
+  "name": "John Miller",
+  "npi": "1234567893",
+  "taxId": "123123123",
+  "contact": {
+    "firstName": "Jim",
+    "lastName": "Johnson",
+    "phone": "317-000-1111",
+    "fax": "317-222-2222",
+    "emailAddress": "jjjim@email.com"
+  },
+  "address": {
+    "line1": "750 MYRTLEWOOD LN",
+    "line2": "Apt E",
+    "city": "KEY BISCAYNE",
+    "state": "Florida",
+    "state": "FL",
+    "zipCode": "33149"
+  }
+}

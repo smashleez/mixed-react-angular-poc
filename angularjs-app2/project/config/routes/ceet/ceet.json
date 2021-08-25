@@ -1,0 +1,129 @@
+{
+  "v1/providers": {
+    "get": [
+      {
+        "file": "ceet/providers.json",
+        "latency": 1000
+      }
+    ],
+    "post": [
+      {
+        "file": "ceet/provider-id.json",
+        "latency": 1000
+      }
+    ]
+  },
+  "v1/payers/765675676/provider-number-description": {
+    "file": "ceet/provider-number-descriptions1.json",
+    "latency": 1000
+  },
+  "v1/payers/:id/provider-number-description": {
+    "file": "ceet/provider-number-descriptions2.json",
+    "latency": 1000
+  },
+
+  "v1/providers/:id": {
+    "get": [
+      {
+        "file": "ceet/provider-detail.json",
+        "latency": 1000
+      }
+    ],
+    "delete": [
+      {
+        "file": "common/no-content.json",
+        "latency": 1000
+      }
+    ]
+  },
+  "v1/enrollments": {
+    "get": [
+      {
+        "file": "ceet/enrollments.json",
+        "latency": 1000
+      }
+    ],
+    "post": [
+      {
+        "file": "common/no-content.json",
+        "latency": 1000
+      }
+    ]
+  },
+  "v1/enrollments/:id": {
+    "delete": [
+      {
+        "file": "common/no-content.json",
+        "latency": 1000
+      }
+    ],
+    "put": [
+      {
+        "file": "common/no-content.json",
+        "latency": 1000
+      }
+    ]
+  },
+  "v1/enrollments/:id/notes": {
+    "file": "common/no-content.json",
+    "latency": 1000
+  },
+  "v1/enrollments/:id/notes?providerId=11": {
+    "file": "common/no-content.json",
+    "latency": 1000
+  },
+  "v1/enrollment-paperwork/upload": {
+    "params": {
+      "functionCode": "EL",
+      "enrollmentId": "4",
+      "statusCode": "DOWNLOADED",
+      "providerId": "11"
+    },
+    "file": "common/no-content.json",
+    "latency": 1000
+  },
+  "v1/enrollment-paperwork/download-token": {
+    "file": "ceet/enrollment-paperwork-download-token.json",
+    "latency": 1000
+  },
+  "v1/enrollment-paperwork/download": {
+    "file": "ceet/paperwork.zip",
+    "latency": 1000
+  },
+  "v1/enrollment-screen-report/download-token": {
+    "file": "ceet/enrollment-paperwork-download-token.json",
+    "latency": 1000
+  },
+  "v1/templates": {
+    "get": [
+      {
+        "file": "ceet/templates.json",
+        "latency": 1000
+      }],
+    "put": [
+    {
+      "file": "common/no-content.json",
+      "latency": 1000
+    }],
+    "post": [
+    {
+      "file": "ceet/template-id.json",
+      "latency": 1000
+    }]
+  },
+  "v1/logout": {
+    "put": [
+      {
+        "file": "common/no-content.json",
+        "latency": 1000
+      }
+    ]
+  },
+  "v1/templates/:templateId/details": {
+    "file": "ceet/template-details.json",
+    "latency": 1000
+  },
+  "v1/support-tickets": {
+    "file": "common/no-content.json"
+  }
+}
